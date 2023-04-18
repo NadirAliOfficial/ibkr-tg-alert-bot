@@ -1,3 +1,3 @@
 # ibkr-tg-alert-bot
 This is the Interactive Brokers Bot getting alert via Trading Wehbook
-<!-- updated: 2026-04-11-02 -->
+<!-- updated: 2023-04-18-r01 -->
