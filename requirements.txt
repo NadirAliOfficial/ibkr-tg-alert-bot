@@ -1,0 +1,5 @@
+ib_insync==1.14.0
+flask==2.3.3
+python-telegram-bot==20.5
+pydantic==2.2.1
+uvicorn==0.23.2
