@@ -90,14 +90,14 @@ def telegram_config():
         elif step == "size":
             try:
                 state["order_size"] = float(text)
-            except:
+            except Exception:
                 notify(chat_id, "Number only."); return "", 200
             state["step"] = "profit"
             notify(chat_id, "Enter profit %:")
         else:
             try:
                 profit = float(text)
-            except:
+            except Exception:
                 notify(chat_id, "Number only."); return "", 200
             presets[state["ticker"]] = {"order_size": state["order_size"], "min_profit_pct": profit/100.0}
             notify(chat_id, f"✅ Saved {state['ticker']} @${state['order_size']} @{profit}%")
